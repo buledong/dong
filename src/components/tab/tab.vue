@@ -1,0 +1,40 @@
+<template>
+  <div class="tab">
+    <router-link tag="div" class="tab-item" to="/video">
+      <span class="tab-link">视频</span>
+    </router-link>
+    <router-link tag="div" class="tab-item" to="/joke">
+      <span class="tab-link">段子</span>
+    </router-link>
+    <router-link tag="div" class="tab-item" to="/image">
+      <span class="tab-link">图片
+      </span>
+    </router-link>
+    <router-link tag="div" class="tab-item" to="/recommend">
+      <span class="tab-link">推荐</span>
+    </router-link>
+  </div>
+</template>
+
+<script type="text/ecmascript-6">
+  export default {};
+</script>
+
+<style lang="stylus" type="text/stylus" scoped>
+  @import "~common/stylus/variable"
+  .tab
+    display: flex
+    height: 44px
+    line-height: 44px
+    font-size: $font-size-large
+    .tab-item
+      flex: 1
+      text-align: center
+      .tab-link
+        padding-bottom: 5px
+        color: $color-text-l
+      &.router-link-active
+        .tab-link
+          color: $color-theme
+          border-bottom: 2px solid $color-theme
+</style>
