@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Video from 'components/video/video';
+import Neihan from 'components/neihan/neihan';
 import Image from 'components/image/image';
 import Joke from 'components/joke/joke';
 import Recommend from 'components/recommend/recommend';
@@ -13,7 +13,7 @@ export default new Router({
     redirect: '/video'
   }, {
     path: '/video',
-    component: Video
+    component: Neihan
   }, {
     path: '/image',
     component: Image
