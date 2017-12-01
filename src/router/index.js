@@ -10,9 +10,9 @@ Vue.use(Router);
 export default new Router({
   routes: [{
     path: '/',
-    redirect: '/video'
+    redirect: '/neihan'
   }, {
-    path: '/video',
+    path: '/neihan',
     component: Neihan
   }, {
     path: '/image',

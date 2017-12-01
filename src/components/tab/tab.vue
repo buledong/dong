@@ -1,14 +1,13 @@
 <template>
   <div class="tab">
-    <router-link tag="div" class="tab-item" to="/video">
-      <span class="tab-link">视频</span>
+    <router-link tag="div" class="tab-item" to="/neihan">
+      <span class="tab-link">内涵</span>
     </router-link>
-    <router-link tag="div" class="tab-item" to="/joke">
-      <span class="tab-link">段子</span>
+    <router-link tag="div" class="tab-item" to="/baisi">
+      <span class="tab-link">百思</span>
     </router-link>
-    <router-link tag="div" class="tab-item" to="/image">
-      <span class="tab-link">图片
-      </span>
+    <router-link tag="div" class="tab-item" to="/qiubai">
+      <span class="tab-link">糗百</span>
     </router-link>
     <router-link tag="div" class="tab-item" to="/recommend">
       <span class="tab-link">推荐</span>
